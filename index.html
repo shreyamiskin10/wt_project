@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="hero-section">
+            <h1>Welcome to Our Online Store</h1>
+            <p>Find the best products for your needs at unbeatable prices.</p>
+            <button onclick="window.location.href='#products'">Shop Now</button>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <section id="categories" class="categories">
+        <h2>Shop by Categories</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <h3>Electronics</h3>
+            </div>
+            <div class="category-item">
+                <h3>Clothing</h3>
+            </div>
+            <div class="category-item">
+                <h3>Home & Living</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+        
+        <div class="product" id="product1">
+            <h3>Product 1</h3>
+            <p>Price: $10</p>
+            <button class="add-to-cart" data-product-id="1" data-product-name="Product 1" data-product-price="10">Add to Cart</button>
+        </div>
+        
+        <div class="product" id="product2">
+            <h3>Product 2</h3>
+            <p>Price: $20</p>
+            <button class="add-to-cart" data-product-id="2" data-product-name="Product 2" data-product-price="20">Add to Cart</button>
+        </div>
+        
+        <div class="product" id="product3">
+            <h3>Product 3</h3>
+            <p>Price: $30</p>
+            <button class="add-to-cart" data-product-id="3" data-product-name="Product 3" data-product-price="30">Add to Cart</button>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>Connect with us on:</p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        <p>&copy; 2024 Online Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
